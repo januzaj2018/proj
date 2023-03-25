@@ -1,0 +1,104 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333333;
+}
+.s0 .s1 .s2 .s3 .s4 {
+  border: 16px solid black;
+}
+
+.waffle {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.waffle td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+.waffle .s0 {
+  background-color: #4285f4;
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.waffle .s1 {
+  font-weight: bold;
+}
+
+.waffle .s3 {
+  font-weight: bold;
+  text-align: center;
+  background-color: #ffe794;
+}
+
+.waffle .s4 {
+  text-align: center;
+}
+
+.waffle .s5 {
+  font-weight: bold;
+  text-align: center;
+}
+
+.waffle .s6 {
+  text-align: center;
+  background-color: #ffe794;
+  font-weight: bold;
+}
+
+.waffle .s7 {
+  text-align: center;
+}
+
+.waffle tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.waffle tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Set background color of body to black */
+body {
+  background-color: #1a1a1a;
+}
+
+/* Set font color of body to white */
+body {
+  color: white;
+}
+
+/* Set background color of table header to dark grey */
+table thead tr {
+  background-color: #444444;
+}
+
+/* Set font color of table header to white */
+table thead tr th {
+  color: white;
+}
+
+/* Set background color of table rows to a darker shade of black */
+table tbody tr {
+  background-color: #2b2b2b;
+}
+
+/* Set font color of table rows to white */
+table tbody tr td {
+  color: white;
+}
+
+/* Add border to all cells */
+table td {
+  border: 5px solid white;
+}
+
+td .s4 {
+  background-color: #2b2b2b;
+}
